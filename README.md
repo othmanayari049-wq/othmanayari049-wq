@@ -24,18 +24,6 @@
 
 ### SkyPermit AI — UAV Safety Intelligence Platform
 
-I am currently developing **SkyPermit AI**, an AI-powered drone and UAV detection, verification, and safety-response platform for critical infrastructure.
-
-The system is designed to:
-
-- Detect possible unauthorized or unsafe UAV activity
-- Combine camera, acoustic, and optional passive RF information
-- Use AI-based risk scoring and sensor fusion
-- Alert the responsible safety or security team
-- Keep humans involved in every major decision
-- Generate evidence-based incident reports
-
-SkyPermit AI is designed as a safe and non-invasive system. It does not jam, hack, attack, intercept, damage, or take control of drones.
 
 ---
 
