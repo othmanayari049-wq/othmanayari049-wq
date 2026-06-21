@@ -24,7 +24,6 @@
 
 ### SkyPermit AI — UAV Safety Intelligence Platform
 
-
 ---
 
 ## Leadership & Community Involvement
