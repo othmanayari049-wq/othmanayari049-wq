@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Résumé of Mohamed Othman Ayari, Computer Engineering undergraduate at Qatar University.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <title>Résumé | Mohamed Othman Ayari</title>
+  <style>
+    :root { --ink:#10233a; --muted:#536b82; --line:#d9e3eb; --blue:#1f5fd0; --paper:#fff; --bg:#eaf0f5; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:Inter,Arial,sans-serif; line-height:1.45; }
+    a { color:inherit; text-decoration:none; }
+    .toolbar { position:sticky; top:0; z-index:10; display:flex; justify-content:center; gap:.7rem; padding:1rem; background:rgba(234,240,245,.92); backdrop-filter:blur(12px); border-bottom:1px solid var(--line); }
+    .toolbar a,.toolbar button { border:1px solid var(--line); background:#fff; color:var(--ink); padding:.65rem .9rem; border-radius:9px; font:inherit; font-size:.82rem; font-weight:700; cursor:pointer; }
+    .toolbar button { background:var(--blue); color:#fff; border-color:var(--blue); }
+    .page { width:min(900px,calc(100% - 24px)); margin:2rem auto; background:var(--paper); box-shadow:0 20px 60px rgba(31,63,91,.14); padding:3rem; }
+    header { display:grid; grid-template-columns:1fr auto; gap:2rem; border-bottom:3px solid var(--ink); padding-bottom:1.4rem; }
+    h1 { margin:0; font-size:2.4rem; letter-spacing:-.04em; }
+    .role { margin:.35rem 0 0; color:var(--blue); font-weight:800; }
+    .contact { display:grid; gap:.25rem; text-align:right; font-size:.82rem; color:var(--muted); }
+    section { margin-top:1.5rem; }
+    h2 { margin:0 0 .8rem; font-size:.82rem; text-transform:uppercase; letter-spacing:.14em; color:var(--blue); }
+    p { margin:.35rem 0; }
+    .summary { color:var(--muted); }
+    .two { display:grid; grid-template-columns:1.25fr .75fr; gap:2rem; }
+    .item { margin-bottom:1.2rem; }
+    .item-head { display:flex; justify-content:space-between; gap:1rem; }
+    .item-head strong { font-size:.95rem; }
+    .item-head span { color:var(--muted); font-size:.76rem; white-space:nowrap; }
+    .item em { display:block; margin:.15rem 0 .35rem; color:var(--muted); font-style:normal; font-size:.82rem; }
+    ul { margin:.4rem 0 0; padding-left:1.05rem; color:var(--muted); font-size:.82rem; }
+    li { margin:.28rem 0; }
+    .tags { display:flex; flex-wrap:wrap; gap:.35rem; }
+    .tags span { padding:.3rem .45rem; background:#f3f7fa; border:1px solid var(--line); border-radius:6px; color:var(--muted); font-size:.72rem; }
+    .note { padding:.8rem; border-left:3px solid var(--blue); background:#f4f8fc; color:var(--muted); font-size:.78rem; }
+    @media(max-width:700px){ .page{padding:1.5rem}.two,header{grid-template-columns:1fr}.contact{text-align:left}.item-head{flex-direction:column;gap:.15rem}.item-head span{white-space:normal}.toolbar{flex-wrap:wrap} }
+    @media print { body{background:#fff}.toolbar{display:none}.page{width:100%;margin:0;box-shadow:none;padding:0.3in}.page section{break-inside:avoid} a{color:inherit} }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a href="index.html">← Portfolio</a>
+    <a href="mailto:othmanayari049@gmail.com">Email</a>
+    <a href="https://github.com/othmanayari049-wq" target="_blank" rel="noreferrer">GitHub</a>
+    <button type="button" onclick="window.print()">Print / Save PDF</button>
+  </div>
+
+  <main class="page">
+    <header>
+      <div><h1>Mohamed Othman Ayari</h1><p class="role">Computer Engineering Undergraduate</p></div>
+      <div class="contact"><span>Doha, Qatar</span><a href="mailto:othmanayari049@gmail.com">othmanayari049@gmail.com</a><a href="https://github.com/othmanayari049-wq">github.com/othmanayari049-wq</a></div>
+    </header>
+
+    <section><h2>Professional Profile</h2><p class="summary">Computer Engineering undergraduate at Qatar University focused on artificial intelligence, computer vision, robotics, embedded systems, and software engineering. Experienced in developing multidisciplinary prototypes, evaluating model behavior, integrating hardware and software, and documenting technical work responsibly.</p></section>
+
+    <div class="two">
+      <div>
+        <section>
+          <h2>Selected Projects</h2>
+          <article class="item"><div class="item-head"><strong>QadamCare AI</strong><span>Multimodal AI Research Prototype</span></div><em>Python · PyTorch · OpenCV · Streamlit</em><ul><li>Built separated RGB and thermal workflows for image analysis, quality validation, visualization, and structured reporting.</li><li>Implemented patient-wise evaluation, workflow-specific routing, and explicit separation between model output, user-entered context, and generated documentation.</li><li>Documented clinical and dataset limitations as a non-diagnostic educational and research prototype.</li></ul></article>
+          <article class="item"><div class="item-head"><strong>realX Student Platform</strong><span>Web · Mobile · Backend</span></div><em>React · React Native · Expo · Firebase</em><ul><li>Contributed to a student-community application connecting university students with campus life, services, food, events, opportunities, and peers.</li><li>Worked across authenticated interfaces, mobile development, Firebase services, and deployment-oriented repository structure.</li></ul></article>
+          <article class="item"><div class="item-head"><strong>Hospital Management System</strong><span>OOP Course Project</span></div><em>Java 17 · Maven · JUnit · JavaScript</em><ul><li>Designed a layered system for patients, staff, appointments, rooms, admissions, records, prescriptions, billing, and inventory.</li><li>Applied inheritance, abstraction, interfaces, polymorphism, composition, generics, exception handling, tests, and CI.</li></ul></article>
+          <article class="item"><div class="item-head"><strong>ROS 2 SLAM and Navigation</strong><span>Autonomous Robotics</span></div><em>ROS 2 · TurtleBot3 · Cartographer · Nav2 · Gazebo · RViz</em><ul><li>Worked with mapping, localization, path planning, simulation, and autonomous navigation workflows.</li></ul></article>
+        </section>
+
+        <section>
+          <h2>Experience</h2>
+          <article class="item"><div class="item-head"><strong>Research Intern — Qatar University, College of Engineering</strong><span>Summer 2026</span></div><ul><li>Supported multidisciplinary engineering research through system development, testing, data analysis, and documentation.</li><li>Assisted with AirSense / AirSense-R indoor air-quality robot testing and HandOsteoNet engineering research activities.</li></ul></article>
+          <article class="item"><div class="item-head"><strong>Application Developer — realX</strong><span>2026</span></div><ul><li>Contributed to a student-focused platform spanning web, mobile, authentication, cloud services, and product development.</li></ul></article>
+        </section>
+      </div>
+
+      <aside>
+        <section><h2>Education</h2><article class="item"><strong>Qatar University</strong><em>B.Sc. Computer Engineering</em><p class="summary">Honors student · Dean's List · Academic excellence recognition</p></article></section>
+        <section><h2>Technical Skills</h2><div class="tags"><span>Python</span><span>Java</span><span>C++</span><span>TypeScript</span><span>JavaScript</span><span>MATLAB</span><span>PyTorch</span><span>OpenCV</span><span>Computer Vision</span><span>Multimodal AI</span><span>ROS 2</span><span>SLAM</span><span>Navigation2</span><span>Gazebo</span><span>ESP32</span><span>React</span><span>React Native</span><span>Expo</span><span>Firebase</span><span>REST APIs</span><span>Git</span><span>GitHub</span><span>Linux</span></div></section>
+        <section><h2>Research Interests</h2><ul><li>Multimodal and explainable AI</li><li>Computer vision</li><li>Autonomous systems</li><li>Embedded intelligence</li><li>Responsible AI for healthcare and smart cities</li></ul></section>
+        <section><h2>Leadership & Community</h2><ul><li>Artificial Intelligence Club</li><li>Mechatronics Club</li><li>IEEE Student Branch</li><li>Technical workshops and university events</li><li>Volunteer activities in Education City and Doha</li></ul></section>
+        <section><h2>Languages</h2><p class="summary">Arabic — Native<br>English — Fluent<br>French — Fluent</p></section>
+      </aside>
+    </div>
+
+    <p class="note">This web résumé is intentionally free of sensitive identifiers. A tailored PDF CV and supporting academic documents can be provided directly when appropriate.</p>
+  </main>
+</body>
+</html>

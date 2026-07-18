@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://othmanayari049-wq.github.io/othmanayari049-wq/sitemap.xml
