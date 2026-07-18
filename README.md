@@ -65,13 +65,12 @@ A student-community application designed to help university students connect wit
 
 ## Research and Engineering
 
-### AirSense / AirSense-R
+### Qatar University Summer Research Internship — Summer Tasks
 
-Autonomous indoor air-quality monitoring and mapping research involving robotics, sensors, system integration, testing, and data analysis.
+During the **QU Summer Research Internship 2026**, I supported two short research tasks:
 
-### HandOsteoNet
-
-An intelligent system for hand and musculoskeletal health assessment, developed through multidisciplinary engineering and research activities.
+- **AirSense / AirSense-R:** assisted with indoor air-quality robot testing, system integration, and data analysis.
+- **HandOsteoNet:** supported engineering and research activities related to hand and musculoskeletal health assessment.
 
 ### ROS 2 SLAM and Robot Navigation
 
