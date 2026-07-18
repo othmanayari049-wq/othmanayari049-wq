@@ -8,9 +8,9 @@ const audienceSummary = document.querySelector('#audienceSummary');
 const audienceButtons = document.querySelectorAll('.audience-button');
 
 const audienceCopy = {
-  universities: 'Computer Engineering undergraduate developing research-oriented systems in multimodal AI, computer vision, robotics, and embedded intelligence with clear validation and responsible limitations.',
-  internships: 'A multidisciplinary Computer Engineering student ready to contribute across Python, Java, AI, robotics, embedded hardware, and full-stack software while learning quickly and documenting work clearly.',
-  companies: 'An engineering-focused builder who connects architecture, implementation, testing, user experience, and communication to produce practical, maintainable systems.'
+  universities: 'Computer Engineering undergraduate combining multidisciplinary research, patient-level model evaluation, computer vision, robotics, embedded systems, data analysis, and responsible technical reporting.',
+  internships: 'AI Software Engineering Intern with practical experience connecting Angular, Spring Boot, FastAPI, and Gemini workflows, supported by projects in Python, Java, computer vision, robotics, embedded hardware, and Linux.',
+  companies: 'A systems-focused engineer who traces issues across frontend, backend, AI, and hardware workflows while emphasizing integration testing, disciplined debugging, technical communication, and maintainable implementation.'
 };
 
 const savedTheme = localStorage.getItem('moa-theme');
