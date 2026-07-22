@@ -19,6 +19,7 @@ I am a **Computer Engineering undergraduate at Qatar University** focused on bui
 
 My goal is to turn research ideas into carefully engineered prototypes with clear validation, responsible limitations, and meaningful real-world value.
 
+- Application Developer Intern at **realX.qa** since January 2026
 - Research Intern at **Qatar University – College of Engineering**
 - Interested in multimodal AI, autonomous robotics, embedded intelligence, and AI-assisted healthcare systems
 - Honors student and Dean's List honoree
@@ -48,16 +49,17 @@ A responsible research and engineering prototype for **workflow-safe RGB and the
 
 ### [realX Student Platform](https://github.com/othmanayari049-wq/realX)
 
-A student-community application designed to help university students connect with campus life, services, and one another.
+A Qatar-focused student discount, rewards, and cashback platform that helps university students discover offers for food, shopping, and everyday purchases.
 
-- Authenticated web routes and role-based access control
-- Mobile application using React Native and Expo
-- Firebase authentication, Firestore, storage, and Cloud Functions
-- Separate production backend and guarded deployment workflow
+- Contributed as an **Application Developer Intern** from January 2026 to present
+- Worked on Arabic localization and user-interface improvements
+- Resolved Git branch and pull-request conflicts during team collaboration
+- Diagnosed and fixed a restaurant-selection issue that prevented users from opening restaurant pages
+- Supported testing and debugging across the web and mobile application workflow
 
 [Web](https://github.com/othmanayari049-wq/realX) · [Mobile](https://github.com/othmanayari049-wq/realX-mobile) · [Backend](https://github.com/othmanayari049-wq/realX-backend)
 
-`TypeScript` `React` `React Native` `Expo` `Firebase`
+`TypeScript` `React` `React Native` `Expo` `Firebase` `Git`
 
 </td>
 </tr>
