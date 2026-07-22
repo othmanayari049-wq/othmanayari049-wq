@@ -47,19 +47,22 @@ A responsible research and engineering prototype for **workflow-safe RGB and the
 </td>
 <td width="50%" valign="top">
 
-### [realX Student Platform](https://github.com/othmanayari049-wq/realX)
+### [realX Student Platform](https://github.com/aazam-gh/realX)
 
-A Qatar-focused student discount, rewards, and cashback platform that helps university students discover offers for food, shopping, and everyday purchases.
+A Qatar-focused student discount, rewards, and cashback platform. My internship contributions below are based on pull requests that were reviewed and merged into the realX web and mobile repositories.
 
-- Contributed as an **Application Developer Intern** from January 2026 to present
-- Worked on Arabic localization and user-interface improvements
-- Resolved Git branch and pull-request conflicts during team collaboration
-- Diagnosed and fixed a restaurant-selection issue that prevented users from opening restaurant pages
-- Supported testing and debugging across the web and mobile application workflow
+- Built a vendor profile dashboard that retrieves authenticated vendor data from Firestore and presents business, contact, category, address, status, loading, and empty-state information
+- Implemented vendor search and filtering for the administration dashboard with pagination over Firestore-backed data
+- Configured and validated a Firestore-to-BigQuery transaction analytics pipeline and documented SQL checks for sales, cashback, vendor activity, transaction status, and data quality
+- Added English–Arabic localization, persistent language selection, and right-to-left layout support across the React Native application
+- Localized and improved mobile wallet, profile, privacy-policy, terms, vendor, offer, and cashback interfaces
+- Implemented safer Arabic fallbacks for vendor names and percentage-based discounts when localized database values are missing
+- Fixed Android-specific presentation issues, including adaptive app-icon cropping and offer-heading styling
+- Verified the mobile application locally on an Android emulator and documented the development run process
 
-[Web](https://github.com/othmanayari049-wq/realX) · [Mobile](https://github.com/othmanayari049-wq/realX-mobile) · [Backend](https://github.com/othmanayari049-wq/realX-backend)
+[Web](https://github.com/aazam-gh/realX) · [Mobile](https://github.com/aazam-gh/realX-mobile) · [Backend PR](https://github.com/aazam-gh/realX-backend/pull/1)
 
-`TypeScript` `React` `React Native` `Expo` `Firebase` `Git`
+`TypeScript` `React` `React Native` `Expo` `Firebase` `Firestore` `BigQuery` `i18next` `Git`
 
 </td>
 </tr>
