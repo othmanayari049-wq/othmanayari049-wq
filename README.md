@@ -155,8 +155,9 @@ Built an ESP32-CAM-based pan-and-tilt prototype combining embedded vision, actua
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=othmanayari049-wq&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="Mohamed's GitHub statistics" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=othmanayari049-wq&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Most used languages" />
+<a href="https://github.com/othmanayari049-wq?tab=repositories"><img src="https://img.shields.io/github/followers/othmanayari049-wq?style=for-the-badge&logo=github&label=Followers" alt="GitHub followers" /></a>
+<a href="https://github.com/othmanayari049-wq?tab=repositories"><img src="https://img.shields.io/badge/Public%20Projects-View%20Repositories-2563EB?style=for-the-badge&logo=github" alt="View public repositories" /></a>
+<a href="https://github.com/othmanayari049-wq?tab=overview"><img src="https://img.shields.io/badge/Contribution%20History-View%20Activity-16A34A?style=for-the-badge&logo=github" alt="View GitHub activity" /></a>
 
 </div>
 
