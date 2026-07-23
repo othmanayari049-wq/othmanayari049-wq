@@ -51,7 +51,6 @@ A responsible research and engineering prototype for **workflow-safe RGB and the
 
 A Qatar-focused student discount, rewards, and cashback platform. My internship contributions below are based on pull requests that were reviewed and merged into the realX web and mobile repositories.
 
-- Built a vendor profile dashboard that retrieves authenticated vendor data from Firestore and presents business, contact, category, address, status, loading, and empty-state information
 - Implemented vendor search and filtering for the administration dashboard with pagination over Firestore-backed data
 - Configured and validated a Firestore-to-BigQuery transaction analytics pipeline and documented SQL checks for sales, cashback, vendor activity, transaction status, and data quality
 - Added English–Arabic localization, persistent language selection, and right-to-left layout support across the React Native application
