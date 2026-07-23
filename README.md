@@ -159,6 +159,14 @@ Built an ESP32-CAM-based pan-and-tilt prototype combining embedded vision, actua
 <a href="https://github.com/othmanayari049-wq?tab=repositories"><img src="https://img.shields.io/badge/Public%20Projects-View%20Repositories-2563EB?style=for-the-badge&logo=github" alt="View public repositories" /></a>
 <a href="https://github.com/othmanayari049-wq?tab=overview"><img src="https://img.shields.io/badge/Contribution%20History-View%20Activity-16A34A?style=for-the-badge&logo=github" alt="View GitHub activity" /></a>
 
+<br/><br/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/othmanayari049-wq/othmanayari049-wq/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/othmanayari049-wq/othmanayari049-wq/output/github-contribution-grid-snake.svg" />
+  <img alt="Animated worm eating my GitHub contributions" src="https://raw.githubusercontent.com/othmanayari049-wq/othmanayari049-wq/output/github-contribution-grid-snake.svg" />
+</picture>
+
 </div>
 
 ## Let's Build Something Meaningful
