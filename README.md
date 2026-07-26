@@ -26,6 +26,14 @@ My goal is to turn research ideas into carefully engineered prototypes with clea
 - Active in technical clubs, workshops, student events, and multidisciplinary engineering projects
 - Seeking competitive research collaborations, internships, and graduate-study opportunities
 
+## Research Interests
+
+Multimodal AI · Robotics · Embedded Intelligence · Computer Vision · Responsible Healthcare AI
+
+## Collaboration
+
+Open to research collaborations, internships, and technically meaningful student projects.
+
 ## Selected Work
 
 <table>
@@ -66,6 +74,13 @@ A Qatar-focused student discount, rewards, and cashback platform. My internship 
 </td>
 </tr>
 </table>
+
+## Featured Repositories
+
+| Repository | Verified capability |
+|---|---|
+| [QadamCare AI](https://github.com/othmanayari049-wq/QadamCareAI) | A non-diagnostic research prototype for RGB wound-region segmentation, grayscale thermal monitoring-zone mapping, and clinician-reviewed local LLM/VLM reporting. |
+| [RoadWatch Qatar AI](https://github.com/othmanayari049-wq/RoadWatch-Qatar-AI) | An end-to-end road-inspection platform with a YOLO adapter, FastAPI service, and Streamlit dashboard; its documented engineering checks report 45 passing tests and 92% coverage. |
 
 ## Research and Engineering
 
