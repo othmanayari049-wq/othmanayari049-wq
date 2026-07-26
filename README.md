@@ -146,7 +146,7 @@ Built an ESP32-CAM-based pan-and-tilt prototype combining embedded vision, actua
 - Member and Event Organizer — Artificial Intelligence Club, Qatar University
 - Member and Organizer — Mechatronics Club, Qatar University
 - Active Member — IEEE Student Branch, Qatar University
-- Workshop Supervisor — Eureka Workshops
+- Volunteer — Eureka Workshops
 - Organizer — Qatar University Open Day and Clubs Open Day
 - Volunteer experience with Carnegie Mellon University in Qatar, Qatar National Library, and Hamad Hospital
 
