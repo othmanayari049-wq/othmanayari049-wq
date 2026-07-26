@@ -150,6 +150,23 @@ Built an ESP32-CAM-based pan-and-tilt prototype combining embedded vision, actua
 - Organizer — Qatar University Open Day and Clubs Open Day
 - Volunteer experience with Carnegie Mellon University in Qatar, Qatar National Library, and Hamad Hospital
 
+## Suggest a Future Project
+
+<table>
+<tr>
+<td>
+
+<strong>Have an idea for a future repository?</strong><br/>
+Suggest a practical project in AI, robotics, computer vision, embedded systems, or Qatar-focused technology.
+
+<br/><br/>
+
+<a href="https://github.com/othmanayari049-wq/othmanayari049-wq/issues/new?title=Project%20idea%3A%20&body=Please%20describe%20the%20problem%2C%20who%20it%20helps%2C%20and%20a%20possible%20technical%20approach."><strong>Suggest a project idea</strong></a>
+
+</td>
+</tr>
+</table>
+
 ## GitHub Activity
 
 <div align="center">
