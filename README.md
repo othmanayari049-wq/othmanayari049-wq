@@ -26,6 +26,12 @@ My goal is to turn research ideas into carefully engineered prototypes with clea
 - Active in technical clubs, workshops, student events, and multidisciplinary engineering projects
 - Seeking competitive research collaborations, internships, and graduate-study opportunities
 
+## Now Building
+
+- [QadamCare AI](https://github.com/othmanayari049-wq/QadamCareAI) — a responsible, clinician-reviewed research workflow for RGB and thermal foot-image analysis.
+- [RoadWatch Qatar AI](https://github.com/othmanayari049-wq/RoadWatch-Qatar-AI) — a computer-vision platform for reviewable road-damage inspection workflows.
+- Applied AI, robotics, and intelligent-system research at Qatar University.
+
 ## Research Interests
 
 Multimodal AI · Robotics · Embedded Intelligence · Computer Vision · Responsible Healthcare AI
@@ -149,6 +155,12 @@ Built an ESP32-CAM-based pan-and-tilt prototype combining embedded vision, actua
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
 <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
 </p>
+
+## Engineering Quality
+
+- **RoadWatch Qatar AI:** automated tests, CI, CodeQL, linting, strict type checks, containerized deployment, and published data/model documentation.
+- **QadamCare AI:** documented workflow safeguards, patient-wise model evaluation, explicit limitations, and clinician-review boundaries.
+- Across public projects, I prioritize reproducibility, traceability, clear documentation, and responsible claims.
 
 ## Academic Highlights
 
