@@ -13,6 +13,8 @@
 
 </div>
 
+<!-- PROFILE DETAILS TEMPORARILY HIDDEN
+
 ## Profile
 
 I am a **Computer Engineering undergraduate at Qatar University** focused on building intelligent systems that connect **AI, robotics, embedded computing, computer vision, and full-stack software engineering**.
@@ -194,6 +196,8 @@ Suggest a practical project in AI, robotics, computer vision, embedded systems, 
 </td>
 </tr>
 </table>
+
+-->
 
 ## GitHub Activity
 
