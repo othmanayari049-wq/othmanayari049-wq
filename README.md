@@ -223,7 +223,12 @@ I am interested in opportunities where I can contribute to **AI research, autono
 
 <div align="center">
 
-<a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><strong>Contact me for research, internship, and collaboration opportunities</strong></a>
+<a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><img src="https://img.shields.io/badge/Let's%20Work%20Together-Send%20Research%20%2F%20Internship%20Inquiry-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Send a research or internship inquiry" /></a>
+
+<br/>
+<sub>Choose <strong>Research</strong> or <strong>Internship</strong>, write your message, and send it directly to my email.</sub>
+
+<br/><br/>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient" alt="Footer" />
 
