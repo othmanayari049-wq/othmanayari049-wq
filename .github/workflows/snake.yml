@@ -22,8 +22,19 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#22c55e&color_dots=#dcfce7,#bbf7d0,#86efac,#4ade80,#16a34a
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#4ade80&color_dots=#052e16,#14532d,#166534,#22c55e,#86efac
+            dist/github-contribution-grid-snake.svg?palette=github-light&color_snake=#ef4444
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ef4444
+
+      - name: Remove unnecessary contribution bars
+        shell: python
+        run: |
+          from pathlib import Path
+          import re
+
+          for path in Path("dist").glob("github-contribution-grid-snake*.svg"):
+              svg = path.read_text(encoding="utf-8")
+              svg = re.sub(r'<rect\b[^>]*class="u(?:\s+u[^"]*)?"[^>]*/>', '', svg)
+              path.write_text(svg, encoding="utf-8")
 
       - name: Publish animation to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
