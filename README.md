@@ -9,7 +9,7 @@
 <a href="mailto:othmanayari049@gmail.com"><img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 <a href="https://github.com/othmanayari049-wq"><img src="https://img.shields.io/badge/GitHub-othmanayari049--wq-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <img src="https://img.shields.io/badge/Location-Doha%2C%20Qatar-1D4ED8?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Doha, Qatar" />
-<img src="https://img.shields.io/badge/Open%20to-Research%20%26%20Internships-7C3AED?style=for-the-badge" alt="Open to research and internships" />
+<a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><img src="https://img.shields.io/badge/Open%20to-Research%20%26%20Internships-7C3AED?style=for-the-badge" alt="Open to research and internships" /></a>
 
 </div>
 
@@ -223,7 +223,7 @@ I am interested in opportunities where I can contribute to **AI research, autono
 
 <div align="center">
 
-<a href="mailto:othmanayari049@gmail.com"><strong>Contact me for research, internship, and collaboration opportunities</strong></a>
+<a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><strong>Contact me for research, internship, and collaboration opportunities</strong></a>
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient" alt="Footer" />
 
