@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contact Mohamed Othman Ayari about research and internship opportunities." />
+  <meta name="theme-color" content="#0d1117" />
+  <title>Research & Internship Inquiry | Mohamed Othman Ayari</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0d1117;
+      --panel: #161b22;
+      --panel-2: #0f141b;
+      --border: #30363d;
+      --text: #f0f6fc;
+      --muted: #8b949e;
+      --accent: #7c3aed;
+      --accent-2: #8b5cf6;
+      --focus: #a78bfa;
+      --success: #3fb950;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 50% -10%, rgba(124, 58, 237, .20), transparent 34rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+    }
+
+    a { color: inherit; }
+
+    .shell {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0 64px;
+    }
+
+    .back {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 26px;
+      color: var(--muted);
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    .back:hover { color: var(--text); }
+
+    .card {
+      border: 1px solid var(--border);
+      border-radius: 22px;
+      background: linear-gradient(180deg, rgba(22,27,34,.98), rgba(15,20,27,.98));
+      box-shadow: 0 20px 60px rgba(0,0,0,.35);
+      overflow: hidden;
+    }
+
+    .intro {
+      padding: 34px 34px 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 12px;
+      padding: 6px 10px;
+      border: 1px solid rgba(139, 92, 246, .45);
+      border-radius: 999px;
+      color: #c4b5fd;
+      background: rgba(124, 58, 237, .12);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(28px, 5vw, 42px);
+      line-height: 1.08;
+      letter-spacing: -.035em;
+    }
+
+    .intro p {
+      margin: 0;
+      max-width: 62ch;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    form { padding: 30px 34px 34px; }
+
+    fieldset {
+      margin: 0 0 26px;
+      padding: 0;
+      border: 0;
+    }
+
+    legend,
+    label.field-label {
+      display: block;
+      margin-bottom: 10px;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 750;
+    }
+
+    .choice-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .choice {
+      position: relative;
+      display: block;
+      cursor: pointer;
+    }
+
+    .choice input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .choice-card {
+      display: block;
+      height: 100%;
+      padding: 18px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      background: #0d1117;
+      transition: border-color .18s ease, transform .18s ease, background .18s ease;
+    }
+
+    .choice:hover .choice-card {
+      transform: translateY(-1px);
+      border-color: #6e7681;
+    }
+
+    .choice input:checked + .choice-card {
+      border-color: var(--accent-2);
+      background: rgba(124, 58, 237, .12);
+      box-shadow: 0 0 0 1px rgba(139, 92, 246, .18) inset;
+    }
+
+    .choice input:focus-visible + .choice-card {
+      outline: 3px solid rgba(167, 139, 250, .35);
+      outline-offset: 2px;
+    }
+
+    .choice-title {
+      display: block;
+      margin-bottom: 4px;
+      font-weight: 800;
+    }
+
+    .choice-copy {
+      display: block;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .field { margin-bottom: 18px; }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 11px;
+      background: #0d1117;
+      color: var(--text);
+      font: inherit;
+      padding: 12px 13px;
+      transition: border-color .18s ease, box-shadow .18s ease;
+    }
+
+    textarea {
+      min-height: 160px;
+      resize: vertical;
+    }
+
+    input::placeholder,
+    textarea::placeholder { color: #6e7681; }
+
+    input:focus,
+    textarea:focus {
+      outline: none;
+      border-color: var(--focus);
+      box-shadow: 0 0 0 3px rgba(167, 139, 250, .14);
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      margin-top: 8px;
+    }
+
+    .privacy {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      max-width: 43ch;
+    }
+
+    button {
+      flex: 0 0 auto;
+      border: 0;
+      border-radius: 11px;
+      padding: 12px 19px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #fff;
+      font: inherit;
+      font-weight: 800;
+      cursor: pointer;
+      box-shadow: 0 9px 24px rgba(124, 58, 237, .24);
+      transition: transform .18s ease, filter .18s ease;
+    }
+
+    button:hover { transform: translateY(-1px); filter: brightness(1.08); }
+    button:active { transform: translateY(0); }
+    button:focus-visible { outline: 3px solid rgba(167, 139, 250, .45); outline-offset: 3px; }
+
+    .success {
+      display: none;
+      margin: 0 34px 26px;
+      padding: 13px 15px;
+      border: 1px solid rgba(63,185,80,.45);
+      border-radius: 11px;
+      background: rgba(63,185,80,.09);
+      color: #7ee787;
+      font-weight: 700;
+    }
+
+    .success.show { display: block; }
+
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .footer a { color: #c4b5fd; text-underline-offset: 3px; }
+
+    @media (max-width: 640px) {
+      .shell { width: min(100% - 22px, 760px); padding-top: 24px; }
+      .intro, form { padding-left: 20px; padding-right: 20px; }
+      .choice-grid, .grid { grid-template-columns: 1fr; }
+      .actions { align-items: stretch; flex-direction: column; }
+      button { width: 100%; }
+      .success { margin-left: 20px; margin-right: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <a class="back" href="./" aria-label="Back to Mohamed Othman Ayari portfolio">← Back to portfolio</a>
+
+    <section class="card">
+      <div class="intro">
+        <span class="eyebrow">Open to opportunities</span>
+        <h1>Research & Internship Inquiry</h1>
+        <p>Choose the opportunity type, add your contact details, and send a message directly to Mohamed.</p>
+      </div>
+
+      <div id="success" class="success" role="status">Message sent. Thank you — Mohamed will receive it by email.</div>
+
+      <form id="inquiry-form" action="https://formsubmit.co/othmanayari049@gmail.com" method="POST">
+        <input type="hidden" name="_subject" id="form-subject" value="Portfolio inquiry — Research opportunity" />
+        <input type="hidden" name="_template" value="table" />
+        <input type="hidden" name="_next" value="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html?sent=1" />
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" style="display:none" />
+
+        <fieldset>
+          <legend>What are you contacting me about?</legend>
+          <div class="choice-grid">
+            <label class="choice">
+              <input type="radio" name="Opportunity type" value="Research opportunity" checked required />
+              <span class="choice-card">
+                <span class="choice-title">Research</span>
+                <span class="choice-copy">Research collaboration, assistantship, lab work, or related academic opportunity.</span>
+              </span>
+            </label>
+            <label class="choice">
+              <input type="radio" name="Opportunity type" value="Internship opportunity" required />
+              <span class="choice-card">
+                <span class="choice-title">Internship</span>
+                <span class="choice-copy">Engineering, AI, software, robotics, embedded systems, or related internship.</span>
+              </span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="grid">
+          <div class="field">
+            <label class="field-label" for="name">Name</label>
+            <input id="name" name="Name" type="text" autocomplete="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label class="field-label" for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="organization">Organization / University <span style="color:var(--muted);font-weight:500">(optional)</span></label>
+          <input id="organization" name="Organization" type="text" autocomplete="organization" placeholder="Company, lab, university, or team" />
+        </div>
+
+        <div class="field">
+          <label class="field-label" for="message">Message</label>
+          <textarea id="message" name="Message" placeholder="Tell me about the opportunity, project, role, expected contribution, timeline, or anything else that would be useful." required></textarea>
+        </div>
+
+        <div class="actions">
+          <p class="privacy">Your submission is relayed to Mohamed's email through FormSubmit. Your email is included so he can reply directly.</p>
+          <button type="submit">Send inquiry</button>
+        </div>
+      </form>
+    </section>
+
+    <p class="footer">Prefer email? <a href="mailto:othmanayari049@gmail.com">othmanayari049@gmail.com</a></p>
+  </main>
+
+  <script>
+    const form = document.getElementById('inquiry-form');
+    const subject = document.getElementById('form-subject');
+    const choices = form.querySelectorAll('input[name="Opportunity type"]');
+
+    choices.forEach((choice) => {
+      choice.addEventListener('change', () => {
+        subject.value = `Portfolio inquiry — ${choice.value}`;
+      });
+    });
+
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('sent') === '1') {
+      document.getElementById('success').classList.add('show');
+      history.replaceState({}, '', window.location.pathname);
+    }
+  </script>
+</body>
+</html>
