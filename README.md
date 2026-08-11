@@ -10,6 +10,7 @@
 <a href="https://github.com/othmanayari049-wq"><img src="https://img.shields.io/badge/GitHub-othmanayari049--wq-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 <img src="https://img.shields.io/badge/Location-Doha%2C%20Qatar-1D4ED8?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Doha, Qatar" />
 <a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><img src="https://img.shields.io/badge/Open%20to-Research%20%26%20Internships-7C3AED?style=for-the-badge" alt="Open to research and internships" /></a>
+<a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><img src="https://img.shields.io/badge/CLICK%20HERE-%E2%86%92-FF2D55?style=for-the-badge" alt="Click here to send a research or internship inquiry" /></a>
 
 </div>
 
@@ -224,9 +225,10 @@ I am interested in opportunities where I can contribute to **AI research, autono
 <div align="center">
 
 <a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><img src="https://img.shields.io/badge/Let's%20Work%20Together-Send%20Research%20%2F%20Internship%20Inquiry-7C3AED?style=for-the-badge&logo=gmail&logoColor=white" alt="Send a research or internship inquiry" /></a>
+<a href="https://othmanayari049-wq.github.io/othmanayari049-wq/contact.html"><img src="https://img.shields.io/badge/CLICK%20HERE-%E2%86%92-FF2D55?style=for-the-badge" alt="Click here to send a research or internship inquiry" /></a>
 
 <br/>
-<sub>Choose <strong>Research</strong> or <strong>Internship</strong>, write your message, and send it directly to my email.</sub>
+<sub><strong>Interested?</strong> Click above, choose <strong>Research</strong> or <strong>Internship</strong>, write your message, and send it directly to my email.</sub>
 
 <br/><br/>
 
