@@ -6,6 +6,7 @@ on:
     paths:
       - "index.html"
       - "resume.html"
+      - "contact.html"
       - "styles.css"
       - "script.js"
       - "favicon.svg"
