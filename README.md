@@ -14,6 +14,10 @@
 
 </div>
 
+## Portfolio AI Assistant
+
+The portfolio includes an **Ask about Othman** assistant that answers from a curated public profile. Deployment and API-key instructions are in [`AI_ASSISTANT_SETUP.md`](AI_ASSISTANT_SETUP.md).
+
 <!-- PROFILE DETAILS TEMPORARILY HIDDEN
 
 ## Profile

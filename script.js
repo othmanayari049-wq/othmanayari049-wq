@@ -76,3 +76,97 @@ window.addEventListener('scroll', updateScrollUI, { passive: true });
 updateScrollUI();
 
 document.querySelector('#currentYear').textContent = new Date().getFullYear();
+
+const aiChatLauncher = document.querySelector('#aiChatLauncher');
+const aiChatPanel = document.querySelector('#aiChatPanel');
+const aiChatClose = document.querySelector('#aiChatClose');
+const aiChatForm = document.querySelector('#aiChatForm');
+const aiChatInput = document.querySelector('#aiChatInput');
+const aiChatMessages = document.querySelector('#aiChatMessages');
+const aiChatSuggestions = document.querySelector('#aiChatSuggestions');
+const aiChatHistory = [];
+let aiChatBusy = false;
+
+function setChatOpen(open) {
+  aiChatPanel.hidden = !open;
+  aiChatLauncher.setAttribute('aria-expanded', String(open));
+  if (open) window.setTimeout(() => aiChatInput.focus(), 50);
+}
+
+function addChatMessage(text, role, pending = false) {
+  const message = document.createElement('div');
+  message.className = `ai-message ${role}${pending ? ' pending' : ''}`;
+  const paragraph = document.createElement('p');
+  paragraph.textContent = text;
+  message.appendChild(paragraph);
+  aiChatMessages.appendChild(message);
+  aiChatMessages.scrollTop = aiChatMessages.scrollHeight;
+  return message;
+}
+
+function chatApiUrl() {
+  const configured = String(window.MOA_CHAT_API_URL || '').trim();
+  return configured || '/api/chat';
+}
+
+async function askPortfolioAssistant(question) {
+  if (aiChatBusy) return;
+  aiChatBusy = true;
+  aiChatForm.setAttribute('aria-busy', 'true');
+  aiChatInput.disabled = true;
+  addChatMessage(question, 'user');
+  aiChatHistory.push({ role: 'user', content: question });
+  const pending = addChatMessage('Thinking…', 'assistant', true);
+
+  try {
+    const response = await fetch(chatApiUrl(), {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ messages: aiChatHistory.slice(-8) })
+    });
+    const payload = await response.json().catch(() => ({}));
+    if (!response.ok) throw new Error(payload.error || 'The assistant is temporarily unavailable.');
+
+    const answer = String(payload.answer || '').trim();
+    if (!answer) throw new Error('The assistant returned an empty response.');
+    pending.querySelector('p').textContent = answer;
+    pending.classList.remove('pending');
+    aiChatHistory.push({ role: 'assistant', content: answer });
+  } catch (error) {
+    pending.querySelector('p').textContent = error.message.includes('Failed to fetch')
+      ? 'The assistant backend is not connected yet. Please use the contact section for now.'
+      : error.message;
+    pending.classList.remove('pending');
+    pending.classList.add('error');
+  } finally {
+    aiChatBusy = false;
+    aiChatForm.removeAttribute('aria-busy');
+    aiChatInput.disabled = false;
+    aiChatInput.focus();
+  }
+}
+
+aiChatLauncher?.addEventListener('click', () => setChatOpen(aiChatPanel.hidden));
+aiChatClose?.addEventListener('click', () => setChatOpen(false));
+aiChatSuggestions?.addEventListener('click', event => {
+  const button = event.target.closest('button');
+  if (!button) return;
+  aiChatSuggestions.hidden = true;
+  askPortfolioAssistant(button.textContent.trim());
+});
+aiChatForm?.addEventListener('submit', event => {
+  event.preventDefault();
+  const question = aiChatInput.value.trim();
+  if (!question) return;
+  aiChatInput.value = '';
+  aiChatInput.style.height = '';
+  aiChatSuggestions.hidden = true;
+  askPortfolioAssistant(question);
+});
+aiChatInput?.addEventListener('input', () => {
+  aiChatInput.style.height = '';
+  aiChatInput.style.height = `${Math.min(aiChatInput.scrollHeight, 120)}px`;
+});
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && !aiChatPanel.hidden) setChatOpen(false);
+});

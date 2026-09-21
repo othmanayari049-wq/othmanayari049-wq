@@ -181,7 +181,35 @@
     <section class="section section-shell" id="contact" aria-labelledby="contact-title"><div class="contact-card reveal"><div class="contact-orbit" aria-hidden="true"></div><div class="contact-copy"><p class="section-index">08 / Contact</p><h2 id="contact-title">Let’s build something meaningful.</h2><p>I am interested in research collaborations, AI and software internships, robotics and embedded-systems opportunities, and ambitious engineering teams in Qatar and internationally.</p><div class="contact-actions"><a class="button button-light" href="mailto:ma2407342@qu.edu.qa">University email <span aria-hidden="true">↗</span></a><a class="button button-outline-light" href="https://github.com/othmanayari049-wq" target="_blank" rel="noreferrer">GitHub profile</a></div></div><div class="contact-details"><div><span>University Email</span><a href="mailto:ma2407342@qu.edu.qa">ma2407342@qu.edu.qa</a></div><div><span>Personal Email</span><a href="mailto:othmanayari049@gmail.com">othmanayari049@gmail.com</a></div><div><span>Location</span><strong>Doha, Qatar</strong></div><div><span>Availability</span><strong>Research · Internships · Engineering Collaboration</strong></div></div></div></section>
   </main>
 
+  <aside class="ai-assistant" aria-label="Ask about Mohamed Othman Ayari">
+    <button class="ai-chat-launcher" id="aiChatLauncher" type="button" aria-expanded="false" aria-controls="aiChatPanel">
+      <span class="ai-launcher-icon" aria-hidden="true">AI</span>
+      <span>Ask about me</span>
+    </button>
+    <section class="ai-chat-panel" id="aiChatPanel" aria-labelledby="aiChatTitle" hidden>
+      <header class="ai-chat-header">
+        <div><span class="ai-status-dot" aria-hidden="true"></span><div><h2 id="aiChatTitle">Ask about Othman</h2><p>Portfolio assistant</p></div></div>
+        <button id="aiChatClose" type="button" aria-label="Close assistant">×</button>
+      </header>
+      <div class="ai-chat-messages" id="aiChatMessages" role="log" aria-live="polite" aria-relevant="additions">
+        <div class="ai-message assistant"><p>Hi! Ask me about Othman's projects, skills, experience, education, or availability.</p></div>
+      </div>
+      <div class="ai-chat-suggestions" id="aiChatSuggestions" aria-label="Suggested questions">
+        <button type="button">What projects has he built?</button>
+        <button type="button">What are his strongest skills?</button>
+        <button type="button">How can I contact him?</button>
+      </div>
+      <form class="ai-chat-form" id="aiChatForm">
+        <label class="sr-only" for="aiChatInput">Your question</label>
+        <textarea id="aiChatInput" rows="1" maxlength="500" placeholder="Ask a question..." required></textarea>
+        <button type="submit" aria-label="Send question">↑</button>
+      </form>
+      <p class="ai-chat-disclaimer">AI-generated answers use published portfolio information. Questions are processed by OpenAI.</p>
+    </section>
+  </aside>
+
   <footer class="site-footer"><div class="section-shell footer-inner"><div><strong>Mohamed Othman Ayari</strong><span>Computer Engineering Portfolio</span></div><div class="footer-links"><a href="#top">Back to top</a><a href="resume.html">Résumé</a><a href="mailto:ma2407342@qu.edu.qa">Email</a><a href="https://github.com/othmanayari049-wq" target="_blank" rel="noreferrer">GitHub</a></div><small>Designed and engineered in Doha · <span id="currentYear"></span></small></div></footer>
+  <script src="chat-config.js"></script>
   <script src="script.js" defer></script>
 </body>
 </html>

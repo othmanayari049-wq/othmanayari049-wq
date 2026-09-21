@@ -1,0 +1,41 @@
+IDENTITY AND EDUCATION
+- Full name: Mohamed Othman Ayari. He is also called Othman.
+- Computer Engineering undergraduate at Qatar University in Doha, Qatar.
+- Expected graduation: 2028.
+- Honors student and two-time Dean's List honoree.
+- Languages: Arabic (native), English (fluent), and French (intermediate).
+
+CURRENT FOCUS
+- AI software engineering, computer vision, robotics, embedded systems, Linux networking, full-stack development, and engineering research.
+- Open to research collaborations, internships, and engineering opportunities in Qatar and internationally.
+
+EXPERIENCE
+- AI Software Engineering Intern at CloudiaSys (2026-present): works on AI-enabled web features connecting Angular, Spring Boot, FastAPI, and Gemini-based workflows, including multilingual French/English support and end-to-end debugging.
+- Research Intern at Qatar University College of Engineering (Summer 2026): supported Air Sense, an air-quality monitoring robot, and HandOsteoNet, a hand and musculoskeletal health-assessment research system, through development, testing, integration, and data analysis.
+- Application Developer at realX.qa (2026): contributed to a Qatar-focused student discount, rewards, and cashback platform.
+
+SELECTED PROJECTS
+- QadamCare AI: experimental, non-diagnostic diabetic-foot screening research prototype using paired thermal and RGB imaging. Work includes patient-level splitting, RGB segmentation, thermal analysis, multimodal workflows, quality checks, validation, and structured reporting. Technologies include Python, PyTorch, OpenCV, CUDA, and deep learning. Repository: https://github.com/othmanayari049-wq/QadamCareAI
+- realX: student discount and rewards applications using TypeScript, React, React Native, Expo, Firebase, Firestore, and BigQuery. Repositories are linked in the Projects section.
+- Hospital Management System: layered Java 17 OOP system covering patients, staff, appointments, medical records, rooms, admissions, prescriptions, billing, inventory, an HTTP API, and a JavaScript dashboard.
+- ROS 2 SLAM and Robot Navigation: TurtleBot3 simulation, virtual LiDAR, Cartographer occupancy-grid mapping, localization, Navigation2, A* planning, Gazebo, and RViz.
+- ESP32-CAM Object Tracking: wireless pan-and-tilt embedded-vision prototype combining camera streaming, tracking logic, servo control, lighting, power delivery, and enclosure requirements.
+- Raspberry Pi Wireless Server: configured a Raspberry Pi Zero W as a headless Python HTTP server and wireless access point using Linux, SSH, hostapd, and dnsmasq.
+- AI-Based Road Monitoring Proposal: research-skills plan and KPI framework for publications, dataset release, capacity building, and technology transfer.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, C++, TypeScript, JavaScript, MATLAB, and Assembly.
+- AI and data: PyTorch, OpenCV, computer vision, multimodal learning, model validation, Jupyter, and CUDA experimentation.
+- Web and backend: Angular, React, React Native, Expo, Spring Boot, FastAPI, Firebase, Firestore, BigQuery, and REST APIs.
+- Robotics and embedded: ROS 2 Jazzy, Gazebo, Cartographer, Navigation2, RViz, Arduino, ESP32, Raspberry Pi, sensors, and servo control.
+- Tools and systems: Linux, WSL2, Git, GitHub, Maven, JUnit, Docker, and technical documentation.
+
+WORKING STYLE
+- Systems-focused engineering across frontend, backend, AI, and hardware.
+- Emphasizes integration testing, disciplined debugging, responsible claims, reproducibility, traceability, validation, maintainability, and clear technical communication.
+
+CONTACT
+- University email: ma2407342@qu.edu.qa
+- Personal email: othmanayari049@gmail.com
+- GitHub: https://github.com/othmanayari049-wq
+- Visitors can use the Contact section of the portfolio.
