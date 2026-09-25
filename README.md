@@ -1,3 +1,5 @@
+<!-- PORTFOLIO / PROFILE README TEMPORARILY HIDDEN
+
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&text=Mohamed%20Othman%20Ayari&fontSize=44&fontAlignY=38&desc=Computer%20Engineering%20%7C%20AI%20%7C%20Robotics%20%7C%20Research&descAlignY=59&animation=fadeIn" alt="Mohamed Othman Ayari profile banner" />
@@ -202,7 +204,7 @@ Suggest a practical project in AI, robotics, computer vision, embedded systems, 
 </tr>
 </table>
 
--->
+-- >
 
 ## GitHub Activity
 
@@ -239,3 +241,6 @@ I am interested in opportunities where I can contribute to **AI research, autono
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=gradient" alt="Footer" />
 
 </div>
+
+
+-->
