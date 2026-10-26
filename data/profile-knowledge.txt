@@ -2,17 +2,24 @@ IDENTITY AND EDUCATION
 - Full name: Mohamed Othman Ayari. He is also called Othman.
 - Computer Engineering undergraduate at Qatar University in Doha, Qatar.
 - Expected graduation: 2028.
-- Honors student and two-time Dean's List honoree.
-- Languages: Arabic (native), English (fluent), and French (intermediate).
+- Honors Program member from Fall 2026, Engineering Management minor, and two-time Dean’s List honoree (2025, 2026).
+- Attended primary and secondary education at the Tunisian School of Doha in a French-based curriculum; has strong foundations in mathematics, physics, and programming. His 2024 high school scientific-track diploma was from Omar Bin Abdulaziz Secondary School, with a 99% final grade.
+- Languages: Arabic (native), English (fluent), and French (fluent).
 
 CURRENT FOCUS
-- AI software engineering, computer vision, robotics, embedded systems, Linux networking, full-stack development, and engineering research.
+- AI software engineering, computer vision, medical imaging ML, RF experimentation and electromagnetic simulation, environmental sensing, robotics, embedded systems, Linux networking, and engineering research.
 - Open to research collaborations, internships, and engineering opportunities in Qatar and internationally.
 
 EXPERIENCE
 - AI Software Engineering Intern at CloudiaSys (2026-present): works on AI-enabled web features connecting Angular, Spring Boot, FastAPI, and Gemini-based workflows, including multilingual French/English support and end-to-end debugging.
-- Research Intern at Qatar University College of Engineering (Summer 2026): supported Air Sense, an air-quality monitoring robot, and HandOsteoNet, a hand and musculoskeletal health-assessment research system, through development, testing, integration, and data analysis.
+- Research Intern at Qatar University College of Engineering (Summer 2026): supported AirSense-R, an air-quality monitoring robot, and HandOsteoNet, a hand and musculoskeletal health-assessment research system, through development, testing, integration, and data analysis. Proposed future AirSense-R autonomy work covers ROS 2, LiDAR, navigation, mapping, location-aware environmental readings and dashboards; full autonomy has not been demonstrated.
 - Application Developer at realX.qa (2026): contributed to a Qatar-focused student discount, rewards, and cashback platform.
+
+CURRENT RESEARCH AND COMPETITIONS — FALL 2026 TO PRESENT
+- BCMID breast imaging ML research: patient-separated ultrasound and mammography datasets, unpaired ultrasound-to-mammography CycleGAN experiments, CNN baselines, frozen GAN comparisons, fusion experiments, evaluation with accuracy, macro F1 and class recall, and shortcut sensitivity testing. This is experimental model research and NOT a clinical or diagnostic system.
+- UREP: Design and Optimization of a Portable Electromagnetic Gun for Targeted RF Signal Suppression. Has contributed to RF experimental configurations at 900 MHz and 2.4 GHz with spectrum analyzer, directional and omnidirectional antennas; Python calculations; openEMS/CSXCAD solver experiments; ParaView electromagnetic field visualization; and experimental methodology drafting. The project and optimization are ongoing.
+- MOECC Challenge 2 industrial dust monitoring competition: Team proposal for affordable PM2.5 and PM10 sensor measurements at crushers, quarries and ready-mix plants, geolocated 2D heatmaps, hotspot identification, weather-informed spatial prediction and future validation. This is a proposal/development effort; field deployment is not confirmed.
+- AirSense-R upgrade: Staged automation design stemming from Qatar University air-quality robot research. Planned features include ROS 2 navigation, LiDAR, location-based sensing, heatmaps and a dashboard. Full autonomy remains proposed.
 
 SELECTED PROJECTS
 - QadamCare AI: experimental, non-diagnostic diabetic-foot screening research prototype using paired thermal and RGB imaging. Work includes patient-level splitting, RGB segmentation, thermal analysis, multimodal workflows, quality checks, validation, and structured reporting. Technologies include Python, PyTorch, OpenCV, CUDA, and deep learning. Repository: https://github.com/othmanayari049-wq/QadamCareAI
@@ -25,10 +32,10 @@ SELECTED PROJECTS
 
 TECHNICAL SKILLS
 - Languages: Python, Java, C++, TypeScript, JavaScript, MATLAB, and Assembly.
-- AI and data: PyTorch, OpenCV, computer vision, multimodal learning, model validation, Jupyter, and CUDA experimentation.
+- AI and data: PyTorch, OpenCV, CNNs, CycleGAN, computer vision, multimodal learning, patient-level model validation, Jupyter, and CUDA experimentation.
 - Web and backend: Angular, React, React Native, Expo, Spring Boot, FastAPI, Firebase, Firestore, BigQuery, and REST APIs.
 - Robotics and embedded: ROS 2 Jazzy, Gazebo, Cartographer, Navigation2, RViz, Arduino, ESP32, Raspberry Pi, sensors, and servo control.
-- Tools and systems: Linux, WSL2, Git, GitHub, Maven, JUnit, Docker, and technical documentation.
+- Tools and systems: Linux, WSL2, Git, GitHub, Maven, JUnit, Docker, Python RF calculations, openEMS, CSXCAD, ParaView, and technical documentation.
 
 WORKING STYLE
 - Systems-focused engineering across frontend, backend, AI, and hardware.
@@ -38,4 +45,5 @@ CONTACT
 - University email: ma2407342@qu.edu.qa
 - Personal email: othmanayari049@gmail.com
 - GitHub: https://github.com/othmanayari049-wq
+- LinkedIn: https://www.linkedin.com/in/mohamed-a-a3286b260/
 - Visitors can use the Contact section of the portfolio.
