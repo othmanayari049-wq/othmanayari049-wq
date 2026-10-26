@@ -268,6 +268,24 @@
       button { width: 100%; }
       .success { margin-left: 20px; margin-right: 20px; }
     }
+  
+    /* Keep inquiry form visually consistent with the navy portfolio. */
+    :root {
+      --bg: #07111f; --panel: #0f1d30; --panel-2: #0b1728;
+      --border: rgba(143,176,211,.23); --text: #edf6ff; --muted: #a2b5c8;
+      --accent: #2467dd; --accent-2: #4be1e8; --focus: #4be1e8;
+    }
+    body { background: var(--bg); }
+    .card { border-radius: 6px; background: var(--panel); box-shadow: none; }
+    .eyebrow { background: transparent; border: 0; border-bottom: 1px solid var(--border); border-radius: 0; padding: 0 0 8px; color: var(--accent-2); font-weight: 600; }
+    h1 { font-family: Georgia,"Iowan Old Style",serif; font-weight: 500; letter-spacing: -.04em; }
+    .choice-card, input[type="text"], input[type="email"], textarea { border-radius: 6px; background: var(--bg); }
+    .choice:hover .choice-card { transform: none; }
+    .choice input:checked + .choice-card { border-color: var(--accent-2); background: rgba(75,225,232,.06); box-shadow: none; }
+    input:focus, textarea:focus { border-color: var(--focus); box-shadow: none; outline: 2px solid var(--focus); outline-offset: 2px; }
+    button { border-radius: 6px; background: var(--accent); box-shadow: none; }
+    button:hover { transform: none; filter: brightness(1.12); }
+    .footer a { color: var(--accent-2); }
   </style>
 </head>
 <body>
