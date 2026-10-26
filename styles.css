@@ -348,7 +348,7 @@ h1 em { color: var(--cyan); background: none; font-style: italic; }
 }
 .portrait-frame {
   position: relative;
-  aspect-ratio: 4 / 4.9;
+  aspect-ratio: 1 / 1;
   max-width: 405px;
   background: var(--bg-soft);
   border: 1px solid var(--line-strong);
