@@ -3,6 +3,7 @@ import { readFileSync } from 'node:fs';
 const knowledge = readFileSync(new URL('../data/profile-knowledge.txt', import.meta.url), 'utf8');
 const allowedOrigins = new Set([
   'https://othmanayari049-wq.github.io',
+  'https://othmanayari049-wq.vercel.app',
   'http://localhost:3000',
   'http://localhost:5500',
   'http://127.0.0.1:5500'
